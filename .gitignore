@@ -1,0 +1,9 @@
+
+# Visual Studio build artifacts
+Builds/
+.vs/
+*.pdb
+*.ilk
+*.db
+*.ipch
+*.exe
