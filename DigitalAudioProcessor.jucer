@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="sl6NFa" name="DigitalAudioProcessor" projectType="guiapp"
+              useAppConfig="0" addUsingNamespaceToJuceHeader="0" jucerFormatVersion="1">
+  <MAINGROUP id="Puh2S9" name="DigitalAudioProcessor">
+    <GROUP id="{791A22BF-783C-2FEE-1318-30C03EC5F96D}" name="Source">
+      <FILE id="hi0Rjk" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+      <FILE id="IENQqT" name="MainComponent.h" compile="0" resource="0" file="Source/MainComponent.h"/>
+      <FILE id="sGhRWs" name="MainComponent.cpp" compile="1" resource="0"
+            file="Source/MainComponent.cpp"/>
+    </GROUP>
+  </MAINGROUP>
+  <MODULES/>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1"/>
+  <EXPORTFORMATS>
+    <VS2026 targetFolder="Builds/VisualStudio2026">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="DigitalAudioProcessor"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="DigitalAudioProcessor"/>
+      </CONFIGURATIONS>
+    </VS2026>
+  </EXPORTFORMATS>
+</JUCERPROJECT>
