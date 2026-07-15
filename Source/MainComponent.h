@@ -24,4 +24,6 @@ public:
 private:
     juce::Slider thresholdSlider;
     float threshold = 0.1f; // Our shared variable, initialized to 0.1
+
+    juce::Label thresholdLabel;
 };
